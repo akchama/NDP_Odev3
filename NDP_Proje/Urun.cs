@@ -34,8 +34,8 @@ namespace NDP_Proje
 
         public Stok Stok { get; private set; }
         public Tedarikci Tedarikci { get; }
-        public double Alis { get; set; }
-        public double Satis { get; set; }
+        public double Alis { get; private set; }
+        public double Satis { get; private set; }
         public DateTime AlisTarihi { get; private set; }
         public DateTime SatisTarihi { get; private set; }
 

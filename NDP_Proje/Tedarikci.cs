@@ -20,6 +20,9 @@ namespace NDP_Proje
      */
     public class Tedarikci
     {
+        // Tedarikcilerin siparişleri vardır
+        public Siparis Siparis { get; set; }
+
         public Tedarikci()
         {
             string[] tedarikciler =
